@@ -68,7 +68,7 @@ footer{
   background-color: black;
   color: white;
   grid-column: 1 / -1;  /*Can you explain what this does? goes to the very end without worrying about how long it is*/
-  grid-row: 7 / 0 auto;   /*Can you rewrite it?*/
+  grid-row: 7 / auto;   /*Can you rewrite it?*/
   padding-top: 30px;
   text-align: center;
 }
@@ -175,8 +175,9 @@ header p{
   /* See documentation for desktop view */
   grid-template-columns: 50px auto 500px auto 50px;
   grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
-  }
-  grid-column: 1 / -1;
+   grid-column: 1 / -1;
+    }
+ 
 
   nav{
     background-color: #ddd;
