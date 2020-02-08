@@ -50,7 +50,7 @@ nav a:hover{
 
 .skip a:focus {
   position: absolute;
-  top: 0px;
+  top: 0;
 }
  *:focus {
   border: 2px solid black;
@@ -157,6 +157,7 @@ header p{
   /*Your code here:*/
   /*Align the content in the center */
   align-self: center;
+}
 
 
 
@@ -173,7 +174,7 @@ header p{
   nav{
     background-color: #ddd;
     text-align: right;
-    padding: 35px 0px;
+    padding: 35px 0;
     align-self: center;
   }
 
