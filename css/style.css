@@ -175,7 +175,6 @@ header p{
   /* See documentation for desktop view */
   grid-template-columns: 50px auto 500px auto 50px;
   grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
-   grid-column: 1 / -1;
     }
  
 
