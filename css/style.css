@@ -38,28 +38,20 @@ nav a:hover{
 }
 
 .skip a{
-  position: absolute;
-  top: -40px;
-  background: white;
-  left: 0;
-  padding: 6px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
+    top: -40px;
+    position: absolute;
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;  
 }
 
-.skip a:focus{
-  top: 0;
+.skip a:focus {
   position: absolute;
+  top: 0px;
 }
-/*Your code here*/
-/*Add the selector and rule to move the skip 
-link to the exact top of the page.*/
- 
-
-/*Your code here*/
-/*Add the selector and code to put a 2px black 
-border around all elements in focus.*/
  *:focus {
   border: 2px solid black;
  } 
